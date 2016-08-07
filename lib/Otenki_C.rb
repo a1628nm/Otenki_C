@@ -2,7 +2,7 @@ require "./Otenki_C/version"
 #yahoo.rbの読み込み
 require "./Otenki_C/yahoo"
 #google geocodeの読み込み
-require_relative "./Otenki_C/googlemap"
+require "./Otenki_C/googlemap"
 #表示用
 require "./Otenki_C/rainfall"
 
