@@ -1,4 +1,4 @@
-rainfall(weatherResultHash)
+def rainfall(weatherResultHash)
     rainfall = weatherResultHash["Feature"][0]["Property"]["WeatherList"]["Weather"][0]["Rainfall"]
     if rainfall == 0.0
         puts "雨は降っていません"

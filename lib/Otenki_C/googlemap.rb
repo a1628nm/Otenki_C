@@ -5,7 +5,7 @@ def googlemap(zipcode)
 
         #zipcode = "1000001"
         uri = URI.parse('http://maps.googleapis.com/maps/api/geocode/json?address=' + zipcode + '&language=ja&sensor=false')
-        i#puts uri
+        #puts uri
         json = Net::HTTP.get(uri)
         
         result = JSON.parse(json)
